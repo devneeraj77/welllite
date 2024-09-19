@@ -10,7 +10,7 @@ export function AccordionDemo() {
   return (
     <Accordion type="single" collapsible className="w-full ">
      
-      <h4  className="text-3xl pb-4 md:pb-8 text-center">FAQs</h4>
+      <h4  className="text-3xl  pb-4 md:pb-8 text-center">FAQs</h4>
       <AccordionItem value="item-1">
         <AccordionTrigger>Is Welllite accessible?</AccordionTrigger>
         <AccordionContent>

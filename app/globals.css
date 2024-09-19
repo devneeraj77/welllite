@@ -30,7 +30,7 @@
 
   /* Background Colors */
   --color-background: #E8AA14; /* Main background */
-  --color-background-muted: #e8a81425; /* Muted background */
+  --color-background-muted: #e8a81459; /* Muted background */
 
   /* Transparent Colors */
   --color-transparent: transparent;
@@ -54,7 +54,7 @@
   --color-text-primary-dark: #ffffff; /* Light text */
   --color-text-secondary-dark: #4A5859; /* Secondary text */
   --color-text-accent-dark: #F4B860; /* Accent text */
-  --color-text-muted-dark: rgba(255, 255, 255, 0.7); /* Muted text */
+  --color-text-muted-dark: rgba(245, 216, 155, 0.815); /* Muted text */
 
   /* Border Colors */
   --color-border-dark: #F4B860; /* Light border in dark mode */

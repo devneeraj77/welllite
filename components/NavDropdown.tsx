@@ -24,20 +24,20 @@ const NavDropdown: React.FC<NavDropdownProps> = ({ label, items }) => {
 
   return (
     <div
-      className="relative group"
+      className="relative group  "
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}
     >
-      <button className="text-ts  focus:outline-none">
+      <button className="  focus:outline-none">
         {label}
       </button>
 
       {/* Only render the dropdown if shouldRender is true */}
       {shouldRender && (
         <motion.div
-          className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg z-10"
+          className="absolute left-0 mt-2 w-48 overflow-hidden bg-muted text-accent rounded-md shadow-lg z-10"
           initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: isOpen ? 1 : 0, y: isOpen ? 0 : -10 }}
+          animate={{ opacity: isOpen ? 1 : 0, y: isOpen ? 0: -10 }}
           transition={{ duration: 0.3 }}
         >
           <ul className="py-2">
@@ -45,7 +45,7 @@ const NavDropdown: React.FC<NavDropdownProps> = ({ label, items }) => {
               <li key={item.label}>
                 <a
                   href={item.href}
-                  className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-primary rounded-md   mx-2"
                 >
                   {item.label}
                 </a>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className=" text-ts py-8   bg-muted mt-12 bg-custom-gradient-bgl0">
+    <footer className=" text-ts py-8   bg-primary  ">
 
       <div className="container mx-auto flex flex-col min-h-96 justify-between  px-4">
         {/* Top section with links */}

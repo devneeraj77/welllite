@@ -19,14 +19,14 @@ export function BackgroundLinesDemo() {
         </div>{" "}
         Know your number.
       </motion.h2>
-      <p className="max-w-xl text-ts mx-auto text-base md:text-lg text-tS text-center">
+      <p className="max-w-xl mx-auto font-normal text-base md:text-lg text-ts text-center">
         Get the best advices from our experts, including expert artists,
         painters, marathon enthusiasts and RDX, totally free.
       </p>
       <div className="z-40 mt-8  md:my-16">
         <Link
           href={"/bmi"}
-          className="text-base md:text-lg p-2 px-3 text-tp h-6 rounded-full bg-accent "
+          className="text-base md:text-lg p-2 px-3 text-accent h-6 rounded-full bg-muted "
         >
           Make it 
         </Link>

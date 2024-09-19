@@ -19,7 +19,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full  text-tp text-sm fixed left-0 top-0 z-50  backdrop-blur-md border-b border-muted ">
+    <header className="w-full  text-tp text-sm bg-primary z-50  backdrop-blur-md ">
       <nav className="container mx-auto px-4 py-4  z-50 flex justify-between items-center">
         <div className={alata.className}>
           <Link href="/" className="z-50 text-accent text-2xl font-semibold">
@@ -33,7 +33,7 @@ const Header = () => {
         >
           <motion.div
             animate={isOpen ? { rotate: 45, y: 6 } : { rotate: 0, y: 0 }}
-            className="w-6 h-0.5 z-50 text-tP  bg-accent mb-1"
+            className="w-6 h-0.5 z-50  text-tP  bg-accent mb-1"
           />
           <motion.div
             animate={isOpen ? { opacity: 0 } : { opacity: 1 }}

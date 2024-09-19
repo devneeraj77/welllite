@@ -35,7 +35,7 @@ const TextFlipper = () => {
 
   return (
     <div className={alata.className}>
-      <div className="relative text-tP  bg-secondary px-2 rounded-md flex items-end justify-end border-primary  text-4xl">
+      <div className="relative text-tp  bg-muted px-2 rounded-md flex items-end justify-end border-primary  text-4xl">
         <div className="inline-flex overflow-hidden  font-bold z-999">
           <AnimatePresence mode="wait">
             <motion.div
