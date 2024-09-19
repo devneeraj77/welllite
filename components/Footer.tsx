@@ -8,6 +8,7 @@ const Footer = () => {
 
       <div className="container mx-auto flex flex-col min-h-96 justify-between  px-4">
         {/* Top section with links */}
+ 
         <div className='py-4 my-6'>
           <h6 className='text-4xl text-accent'>Welllite</h6>
           <p>Make your fitness your top priority.</p>
@@ -16,7 +17,7 @@ const Footer = () => {
           {/* Product Links */}
 
           <div className='mb-10'>
-            <h3 className=" font-semibold mb-2">Product</h3>
+            <h3 className=" font-semibold mb-2 text-tp opacity-80">Product</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/features" className="hover:text-accent transition-colors">Features</Link>
@@ -32,7 +33,7 @@ const Footer = () => {
 
           {/* Business Links */}
           <div className='mb-10'>
-            <h3 className=" font-semibold mb-2">Business</h3>
+            <h3 className=" font-semibold mb-2 text-tp opacity-80">Business</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/business" className="hover:text-accent transition-colors">For Businesses</Link>
@@ -48,7 +49,7 @@ const Footer = () => {
 
           {/* Help Links */}
           <div className='mb-10'>
-            <h3 className=" font-semibold mb-2">Help</h3>
+            <h3 className=" font-semibold mb-2 text-tp opacity-80">Help</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/support" className="hover:text-accent transition-colors">Support</Link>
@@ -63,7 +64,7 @@ const Footer = () => {
           </div>
 
           {/* Tools Links */}
-          <div className='mb-10'>
+          {/* <div className='mb-10'>
             <h3 className=" font-semibold mb-2">Tools</h3>
             <ul className="space-y-2">
               <li>
@@ -76,11 +77,12 @@ const Footer = () => {
                 <Link href="/tools/workout" className="hover:text-accent transition-colors">Workout Tools</Link>
               </li>
             </ul>
-          </div>
+          </div> */}
+        </div>
         </div>
 
         {/* Bottom section with copyright and additional links */}
-        <div className="mt-8 flex text-xs py-2 flex-col md:flex-row justify-between items-center">
+        <div className="mt-8 flex text-xs py-2 flex-col md:flex-row  text-center justify-between items-center">
           <p className="text-sm">&copy; {new Date().getFullYear()} Welllite BMI. All Rights Reserved.</p>
 
           <div className="flex space-x-4 text-xs mt-4 md:mt-0">
@@ -91,7 +93,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-      </div>
+      
     </footer>
   );
 };

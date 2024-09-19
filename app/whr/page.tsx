@@ -31,7 +31,7 @@ const WHRCalculator = () => {
   };
 
   return (
-    <main className='pt-16 text-ts flex flex-col'>
+    <main className='md:p-8  p-2 bg-primary'>
 
 
       <section className="basis-2/3 flex flex-col items-center justify-center p-2 min-h-screen text-tp">

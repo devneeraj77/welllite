@@ -50,7 +50,7 @@ const BmiForm = () => {
   };
 
   return (
-    <main className="pt-16 text-ts   items-center justify-center flex flex-col">
+    <main className="pt-16 text-ts md:p-8  p-2 bg-primary  items-center justify-center flex flex-col">
       <section className=" w-full sm:max-w-lg  min-h-[75vh] justify-center flex flex-col  mx-auto">
         <div className="shadow-md shadow-muted p-4">
           <h1 className="text-2xl text-tp font-bold mb-4">BMI Calculator</h1>

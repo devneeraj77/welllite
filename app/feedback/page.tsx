@@ -83,7 +83,7 @@ const FeedbackForm: React.FC = () => {
       }
     };
     return (
-      <main className="md:p-8  p-2 bg-custom-radial-md ">
+      <main className="md:p-8  p-2 bg-primary ">
         <section className="pt-16">
           <div className="max-w-7xl justify-center  m-auto rounded-xl border-rose-600 sm:flex sm:border-rose-600 md:border-blue-400 gap-2 lg:w-[70%] lg:flex-1 ">
             <div className="basis-1/2 backdrop-blur-sm flex flex-col justify-between border-four md:w-[40%] p-2 aspect-square  rounded-xl m-2">
@@ -121,7 +121,7 @@ const FeedbackForm: React.FC = () => {
                     onChange={handleChange}
                     placeholder="Enter your name"
                     required
-                    className="p-2 w-full mt-1 border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted text-sm rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+                    className="mt-2 w-full bg-muted px-4 py-3 outline-none  text-secondary rounded-lg border-2 transition-colors duration-100 focus:border-aceent border-tMuted"
                   />
                 </div>
                 {/* <div className="p-2">
@@ -158,7 +158,7 @@ const FeedbackForm: React.FC = () => {
                     onChange={handleChange}
                     placeholder="Enter your email"
                     required
-                    className="p-2 w-full mt-1 border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted text-sm rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+                    className="mt-2 w-full bg-muted px-4 py-3 outline-none  text-secondary rounded-lg border-2 transition-colors duration-100 focus:border-aceent border-tMuted"
                   />
                 </div>
                 <div className="p-2">
@@ -176,7 +176,7 @@ const FeedbackForm: React.FC = () => {
                     placeholder="Enter your message"
                     required
                     rows={4}
-                    className="p-2 w-full mt-1 border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted text-sm rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+                    className="mt-2 w-full bg-muted px-4 py-3 outline-none  text-secondary rounded-lg border-2 transition-colors duration-100 focus:border-aceent border-tMuted"
                   />
                 </div>
   
