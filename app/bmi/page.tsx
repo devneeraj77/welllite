@@ -114,7 +114,7 @@ const BmiForm = () => {
           )}
         </div>
       </section>
-      <section className=' basis-1/3 max-w-6xl m-auto justify-center items-center p-2 md:pt-10 text-sm lg:text-base md:border-r border-muted'>
+      <section className=' basis-1/3 max-w-6xl m-auto justify-center items-center p-2 md:pt-10 text-sm lg:text-base border-muted'>
       <p>
           <strong className='text-accent'>BMI (Body Mass Index)</strong> is a simple calculation used to assess whether a person
           has a healthy body weight in relation to their height. It’s commonly used to

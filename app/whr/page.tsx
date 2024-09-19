@@ -31,7 +31,7 @@ const WHRCalculator = () => {
   };
 
   return (
-    <main className='md:p-8  p-2 bg-primary'>
+    <main className='md:p-8  p-2 text-ts bg-primary'>
 
 
       <section className="basis-2/3 flex flex-col items-center justify-center p-2 min-h-screen text-tp">
@@ -83,7 +83,7 @@ const WHRCalculator = () => {
           </div>
         )}
       </section>
-      <section className=' basis-1/3 max-w-6xl m-auto justify-center items-center p-2 md:pt-10 text-sm lg:text-base md:border-r border-muted'>
+      <section className=' basis-1/3 max-w-6xl m-auto justify-center items-center p-2 md:pt-10 text-sm lg:text-base  border-muted'>
         <p>For determining hip measurements for women, the formula utilized is contingent upon the specific calculation required. If the focus is on hip circumference for body measurements, it is recommended to wrap a tape measure around the widest part of the hips and buttocks to obtain an accurate measurement.</p> <br />
         <p>If you need to figure out your <strong className='text-accent'> Waist-to-Hip Ratio (WHR)</strong> to assess your health risks related to fat distribution, use this formula:</p>
         <div className='p-6'>
