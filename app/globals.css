@@ -1,3 +1,112 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* https://coolors.co/32373b-4a5859-f4d6cc-f4b860-c83e4d */
+:root {
+  /* Light Mode Colors */
+  
+  /* Primary Color - Background and large areas (60%) */
+  --color-primary: #ffffff;
+  --color-primary-light: rgba(255, 255, 255, 0.8); /* Transparent primary */
+
+  /* Secondary Color - UI elements, buttons, and cards (30%) */
+  --color-secondary: rgb(255, 241, 220);
+  --color-secondary-light: rgba(255, 241, 220, 0.8); /* Transparent secondary */
+
+  /* Accent Color - For emphasis (10%) */
+  --color-accent: #E8AA14;
+  --color-accent-light: rgba(244, 185, 96, 0.295);/* Transparent accent */
+
+  /* Text Colors */
+  --color-text-primary: #32373B; /* Dark text */
+  --color-text-secondary: #4A5859; /* Secondary text */
+  --color-text-accent: #E8AA14; /* Accent text */
+  --color-text-muted: rgba(74, 88, 89, 0.527); /* Muted text */
+
+  /* Border Colors */
+  --color-border: rgba(50, 55, 59, 0.2); /* Light border */
+  --color-border-hover: rgba(50, 55, 59, 0.4); /* Border on hover */
+
+  /* Background Colors */
+  --color-background: #E8AA14; /* Main background */
+  --color-background-muted: #e8a81425; /* Muted background */
+
+  /* Transparent Colors */
+  --color-transparent: transparent;
+  --color-transparent-light: #e8a81433;
+  
+  /* Dark Mode Colors */
+  
+  /* Primary Color - Background and large areas (60%) */
+  --color-primary-dark: #000000;
+  --color-primary-dark-transparent: rgba(50, 55, 59, 0.8); /* Transparent primary dark */
+
+  /* Secondary Color - UI elements, buttons, and cards (30%) */
+  --color-secondary-dark: #F4B860;
+  --color-secondary-dark-transparent: rgba(244, 185, 96, 0.281); /* Transparent secondary dark */
+
+  /* Accent Color - For emphasis (10%) */
+  --color-accent-dark: #F4B860;
+  --color-accent-dark-transparent: rgba(244, 184, 96, 0.8); /* Transparent accent dark */
+
+  /* Text Colors */
+  --color-text-primary-dark: #ffffff; /* Light text */
+  --color-text-secondary-dark: #4A5859; /* Secondary text */
+  --color-text-accent-dark: #F4B860; /* Accent text */
+  --color-text-muted-dark: rgba(255, 255, 255, 0.7); /* Muted text */
+
+  /* Border Colors */
+  --color-border-dark: #F4B860; /* Light border in dark mode */
+  --color-border-hover-dark: rgb(244, 185, 96); /* Border on hover dark mode */
+
+  /* Background Colors */
+  --color-background-dark: #32373B; /* Main background */
+  --color-background-muted-dark: #2C3135; /* Muted background */
+  
+  /* Transparent Colors */
+  --color-transparent-dark: rgba(50, 55, 59, 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Override to Dark Mode */
+    --color-primary: var(--color-primary-dark);
+    --color-secondary: var(--color-secondary-dark);
+    --color-accent: var(--color-accent-dark);
+    
+    --color-text-primary: var(--color-text-primary-dark);
+    --color-text-secondary: var(--color-text-secondary-dark);
+    --color-text-accent: var(--color-text-accent-dark);
+    --color-text-muted: var(--color-text-muted-dark);
+
+    --color-border: var(--color-border-dark);
+    --color-border-hover: var(--color-border-hover-dark);
+
+    --color-background: var(--color-background-dark);
+    --color-background-muted: var(--color-background-muted-dark);
+
+    --color-transparent: var(--color-transparent-dark);
+
+
+/* 
+    --color-primary: var(--color-primary-light);
+    --color-secondary: var(--color-secondary-light);
+    --color-accent: var(--color-accent-light);
+    
+    --color-text-primary: var(--color-text-primary-light);
+    --color-text-secondary: var(--color-text-secondary-light);
+    --color-text-accent: var(--color-text-accent-light);
+    --color-text-muted: var(--color-text-muted-light);
+
+    --color-border: var(--color-border-light);
+    --color-border-hover: var(--color-border-hover-light);
+
+    --color-background: var(--color-background-dark);
+    --color-background-muted: var(--color-background-muted-light);
+
+    --color-transparent: var(--color-transparent-light);*/
+  } 
+  
+}
+
