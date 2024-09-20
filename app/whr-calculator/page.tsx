@@ -40,7 +40,7 @@ const WHRCalculator = () => {
 
         <form
           onSubmit={calculateWHR}
-          className="w-full max-w-md p-6 bg-white rounded  shadow-md shadow-muted"
+          className="w-full max-w-md p-6  rounded  shadow-md shadow-muted"
         >
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-700">Waist (in inches or cm)</label>
@@ -48,7 +48,7 @@ const WHRCalculator = () => {
               type="number"
               value={waist}
               onChange={(e) => setWaist(e.target.value)}
-              className="p-2 w-full mt-1 md:h-16 md:text-2xl border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+              className="p-2 w-full mt-1 md:h-16 md:text-2xl bg-muted text-tp border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300  active:ring-2"
               required
               min="1"
             />
@@ -60,7 +60,7 @@ const WHRCalculator = () => {
               type="number"
               value={hip}
               onChange={(e) => setHip(e.target.value)}
-              className="p-2 w-full mt-1 md:h-16 md:text-2xl border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+              className="p-2 w-full mt-1 md:h-16 md:text-2xl bg-muted text-tp border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300  active:ring-2"
               required
               min="1"
             />
@@ -75,7 +75,7 @@ const WHRCalculator = () => {
         </form>
 
         {whr !== null && (
-          <div className="mt-6 p-4 bg-white rounded shadow-md shadow-muted">
+          <div className="mt-6 p-4 bg-muted rounded shadow-md shadow-muted">
             <p className="text-lg">Your WHR: <span className="font-bold">{whr.toFixed(2)}</span></p>
             <p className={`text-lg font-bold ${healthRisk === 'High Health Risk' ? 'text-red-500' : 'text-green-500'}`}>
               {healthRisk}

@@ -121,7 +121,7 @@ const FeedbackForm: React.FC = () => {
                   onChange={handleChange}
                   placeholder="Enter your name"
                   required
-                  className="p-2 w-full mt-1 border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+                  className="p-2 w-full mt-1  bg-muted border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
                 />
               </div>
               {/* <div className="p-2">
@@ -158,7 +158,7 @@ const FeedbackForm: React.FC = () => {
                   onChange={handleChange}
                   placeholder="Enter your email"
                   required
-                  className="p-2 w-full mt-1  border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+                  className="p-2 w-full mt-1  bg-muted border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
                 />
               </div>
               <div className="p-2">
@@ -176,7 +176,7 @@ const FeedbackForm: React.FC = () => {
                   placeholder="Enter your message"
                   required
                   rows={4}
-                  className="p-2 w-full mt-1  border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+                  className="p-2 w-full mt-1  bg-muted border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
                 />
               </div>
 

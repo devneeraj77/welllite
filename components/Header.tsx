@@ -53,8 +53,8 @@ const Header = () => {
           <NavDropdown
             label="Tools"
             items={[
-              { label: 'BMI', href: '/bmi' },
-              { label: 'WHR', href: '/whr' },
+              { label: 'BMI', href: '/bmi-calculator' },
+              { label: 'WHR', href: '/whr-calculator' },
 
             ]}
           />
@@ -80,8 +80,8 @@ const Header = () => {
             <NavDropdown
               label="Tools"
               items={[
-                { label: 'BMI', href: '/bmi' },
-                { label: 'WHR', href: '/whr' },
+                { label: 'BMI', href: '/bmi-calculator' },
+                { label: 'WHR', href: '/whr-calculator' },
 
               ]}
             />

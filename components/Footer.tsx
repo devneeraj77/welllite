@@ -25,9 +25,7 @@ const Footer = () => {
               <li>
                 <Link href="/pricing" className="hover:text-accent transition-colors">Pricing</Link>
               </li>
-              <li>
-                <Link href="/bmi-calculator" className="hover:text-accent transition-colors">BMI Calculator</Link>
-              </li>
+              
             </ul>
           </div>
 
@@ -36,14 +34,9 @@ const Footer = () => {
             <h3 className=" font-semibold mb-2 text-tp opacity-80">Business</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/business" className="hover:text-accent transition-colors">For Businesses</Link>
+                <Link href="/feedback" className="hover:text-accent transition-colors">For Businesses</Link>
               </li>
-              <li>
-                <Link href="/partners" className="hover:text-accent transition-colors">Partners</Link>
-              </li>
-              <li>
-                <Link href="/enterprise" className="hover:text-accent transition-colors">Enterprise</Link>
-              </li>
+            
             </ul>
           </div>
 
@@ -52,37 +45,35 @@ const Footer = () => {
             <h3 className=" font-semibold mb-2 text-tp opacity-80">Help</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/support" className="hover:text-accent transition-colors">Support</Link>
+                <Link href="/#init" className="hover:text-accent transition-colors">Support</Link>
               </li>
               <li>
-                <Link href="/#faq" className="hover:text-accent transition-colors">FAQ</Link>
+                <Link href="/#faqs" className="hover:text-accent transition-colors">FAQ</Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-accent transition-colors">Contact Us</Link>
+                <Link href="/feedback" className="hover:text-accent transition-colors">Contact Us</Link>
               </li>
             </ul>
           </div>
 
           {/* Tools Links */}
-          {/* <div className='mb-10'>
-            <h3 className=" font-semibold mb-2">Tools</h3>
+          <div className='mb-10'>
+            <h3 className=" font-semibold mb-2 text-tp opacity-80">Tools</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/tools/calculator" className="hover:text-accent transition-colors">BMI Tools</Link>
+                <Link href="/bmi-calculator" className="hover:text-accent transition-colors">BMI</Link>
               </li>
               <li>
-                <Link href="/tools/nutrition" className="hover:text-accent transition-colors">Nutrition Tools</Link>
+                <Link href="/whr-calculator" className="hover:text-accent transition-colors">WHR</Link>
               </li>
-              <li>
-                <Link href="/tools/workout" className="hover:text-accent transition-colors">Workout Tools</Link>
-              </li>
+              
             </ul>
-          </div> */}
+          </div>
         </div>
         </div>
 
         {/* Bottom section with copyright and additional links */}
-        <div className="mt-8 flex text-xs py-2 flex-col md:flex-row  text-center justify-between items-center">
+        <div className="mt-8 flex text-xs py-2 flex-col md:flex-row  max-w-7xl px-3 m-auto text-center justify-between items-center">
           <p className="text-sm">&copy; {new Date().getFullYear()} Welllite BMI. All Rights Reserved.</p>
 
           <div className="flex space-x-4 text-xs mt-4 md:mt-0">

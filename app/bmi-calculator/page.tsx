@@ -52,7 +52,7 @@ const BmiForm = () => {
   return (
     <main className="pt-16 text-ts md:p-8  p-2 bg-primary  items-center justify-center flex flex-col">
       <section className=" w-full sm:max-w-lg  min-h-[75vh] justify-center flex flex-col  mx-auto">
-        <div className="shadow-md shadow-muted p-4">
+        <div className="shadow-md shadow-muted p-4 rounded-md">
           <h1 className="text-2xl text-tp font-bold mb-4">BMI Calculator</h1>
           <div className="md:flex justify-between gap-4 ">
             <div className="mb-4 ">
@@ -65,7 +65,7 @@ const BmiForm = () => {
                 onChange={(e) =>
                   setWeight(e.target.value === "" ? "" : Number(e.target.value))
                 }
-                className="p-2 w-full mt-1 md:h-16 md:text-2xl border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+                className="p-2 w-full mt-1 md:h-16 md:text-2xl  bg-muted text-tp border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 active:ring-2"
                 placeholder="Enter weight"
               />
             </div>
@@ -79,7 +79,7 @@ const BmiForm = () => {
                 onChange={(e) =>
                   setHeight(e.target.value === "" ? "" : Number(e.target.value))
                 }
-                className="p-2 w-full mt-1 md:h-16 md:text-2xl border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+                className="p-2 w-full mt-1 md:h-16 md:text-2xl  bg-muted text-tp border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 active:ring-2"
                 placeholder="Enter height"
               />
             </div>
@@ -89,7 +89,7 @@ const BmiForm = () => {
             <select
               value={unit}
               onChange={(e) => setUnit(e.target.value as "metric" | "imperial")}
-              className="p-2 w-full mt-1 border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted text-sm rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+              className="p-2 w-full mt-1 border-green-300 focus:ring-4 file:ring-2  bg-muted border border-secondary ring-muted text-sm rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
             >
               <option value="metric" className="p-2 w-full mt-1 border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted text-sm rounded-md outline-0 outline-slate-300 text-ts active:ring-2">Metric (kg, cm)</option>
               <option value="imperial" className="p-2 w-full mt-1 border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted text-sm rounded-md outline-0 outline-slate-300 text-ts active:ring-2">Imperial (pounds, inches)</option>

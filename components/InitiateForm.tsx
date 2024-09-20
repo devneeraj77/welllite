@@ -84,7 +84,7 @@ const InitiateForm: React.FC = () => {
     }
   };
   return (
-    <div className="">
+    <div  className="">
       <form
         action="https://formspree.io/f/mnqebqjq"
         method="POST"
@@ -106,7 +106,7 @@ const InitiateForm: React.FC = () => {
             onChange={handleChange}
             placeholder="Subject"
             required
-            className="p-2 w-full mt-1  border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+            className="p-2 w-full mt-1 bg-muted border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
           />
         </div>
         <div className="p-2 ">
@@ -124,7 +124,7 @@ const InitiateForm: React.FC = () => {
             onChange={handleChange}
             placeholder="Email"
             required
-            className="p-2 w-full mt-1  border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+            className="p-2 w-full mt-1  bg-muted border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
           />
         </div>
         <div className="p-2 h-22">
@@ -142,7 +142,7 @@ const InitiateForm: React.FC = () => {
             placeholder="Enter your message"
             required
             rows={4}
-            className="p-2 w-full mt-1   border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
+            className="p-2 w-full mt-1  bg-muted border-green-300 focus:ring-4 file:ring-2 border border-secondary ring-muted rounded-md outline-0 outline-slate-300 text-ts active:ring-2"
           />
         </div>
 

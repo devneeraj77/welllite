@@ -13,7 +13,7 @@ export function BackgroundLinesDemo() {
       initial={{opacity: 0, x: -20}}
       animate={{opacity: 1, x: -5}}
       whileInView={{opacity: 1, x: 0}}
-      transition={{duration: 2}}
+    
       className=" text-4xl md:text-5xl lg:text-7xl text-tp py-2 md:py-10 relative z-20 font-bold tracking-tight">
         <div className=" flex  items-end justify-end   z-999  ">
           <TextFlipper />, made easy.
@@ -26,19 +26,21 @@ export function BackgroundLinesDemo() {
       initial={{opacity: 0, x: -20}}
       animate={{opacity: 1, x: -5}}
       whileInView={{opacity: 1, x: 0}}
-      transition={{duration: 1,delay:0.5}}
-      className="max-w-xl mx-auto font-normal text-base md:text-lg text-ts text-center">
-        Get the best advices from our experts, including expert artists,
-        painters, marathon enthusiasts and RDX, totally free.
+      
+      className="max-w-xl mx-auto font-normal text-base md:text-lg text-tMuted text-center">
+        Your weight management partner. Accurate BMI calculations, helpful tips, and motivation to reach your health goals.
       </motion.p>
       <motion.div 
+      initial={{opacity: 0, x: -20}}
+      animate={{opacity: 1, x: -5}}
+      whileInView={{opacity: 1, x: 0}}
        whileHover={{ scale: 1.2 }}
        whileTap={{ scale: 0.9 }}
-       transition={{ type: "spring", stiffness: 400, damping: 17 }}
+       transition={{ type: "spring", stiffness: 400, damping: 17, delay: 1 }}
       className="z-40 mt-8  md:my-16">
         <Link
-          href={"/bmi"}
-          className="text-base md:text-lg p-2 px-3 text-accent h-6 rounded-full bg-muted "
+          href={"/bmi-calculator"}
+          className="text-base md:text-lg p-2 px-3 text-tMuted h-6 rounded-full bg-muted "
         >
           Make it 
         </Link>
