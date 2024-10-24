@@ -141,7 +141,7 @@ const BmiForm = () => {
             commonly used to screen for weight categories that may lead to health
             issues, but it’s not a direct measure of body fat.
           </p>
-          <p className="">BMI doesn't differentiate between muscle and fat. A muscular person may have a <strong className='text-accent'>high BMI but low body fat</strong>.</p>
+          <p className="">BMI doesn&apos;t differentiate between muscle and fat. A muscular person may have a <strong className='text-accent'>high BMI but low body fat</strong>.</p>
           <div className="mb-4 p-6">
             <h3 className="font-semibold">1. Metric Units (kg/m²):</h3>
             <p className="italic mb-2 text-center">
