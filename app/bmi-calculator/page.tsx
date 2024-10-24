@@ -112,6 +112,74 @@ const BmiForm = () => {
           )}
         </div>
       </section>
+      <section className="text-ts">
+
+        <div className="p-6 ">
+          <h2 className="text-2xl font-semibold mb-2 max-w-xl m-auto">BMI Categories:</h2>
+          <ul className="list-disc list-inside mb-4 max-w-xl m-auto">
+            <li>
+              <strong>Underweight</strong>: BMI &lt; 18.5
+            </li>
+            <li>
+              <strong>Normal weight</strong>: BMI 18.5 - 24.9
+            </li>
+            <li>
+              <strong>Overweight</strong>: BMI 25 - 29.9
+            </li>
+            <li>
+              <strong>Obesity</strong>: BMI ≥ 30
+              <ul className="list-inside ml-6">
+                <li>Class 1 Obesity: BMI 30 - 34.9</li>
+                <li>Class 2 Obesity: BMI 35 - 39.9</li>
+                <li>Class 3 Obesity: BMI ≥ 40 (Severe/Morbid Obesity)</li>
+              </ul>
+            </li>
+          </ul>
+          <p className="mb-4">
+            BMI (Body Mass Index) is a simple calculation used to assess whether a
+            person has a healthy body weight in relation to their height. It’s
+            commonly used to screen for weight categories that may lead to health
+            issues, but it’s not a direct measure of body fat.
+          </p>
+          <p className="">BMI doesn't differentiate between muscle and fat. A muscular person may have a <strong className='text-accent'>high BMI but low body fat</strong>.</p>
+          <div className="mb-4 p-6">
+            <h3 className="font-semibold">1. Metric Units (kg/m²):</h3>
+            <p className="italic mb-2 text-center">
+              BMI = weight (kg) / height (m)<sup>2</sup>
+            </p>
+            <p>- Weight is measured in kilograms (kg).</p>
+            <p>- Height is measured in meters (m).</p>
+          </div>
+
+          <div className="mb-4 p-6">
+            <h3 className="font-semibold">2. Imperial Units (lbs/in²):</h3>
+            <p className="italic mb-2 text-center">
+              BMI = (weight (lbs) × 703) / height (in)<sup>2</sup>
+            </p>
+            <p>- Weight is measured in pounds (lbs).</p>
+            <p>- Height is measured in inches (in).</p>
+          </div>
+
+
+
+          <h2 className="text-2xl font-semibold mb-2">Important Considerations:</h2>
+          <ul className="list-disc list-inside">
+            <li>
+              <strong>Body Composition</strong>: BMI doesn’t differentiate between
+              muscle and fat. A muscular person may have a high BMI but low body fat.
+            </li>
+            <li>
+              <strong>Age and Gender</strong>: BMI does not account for differences
+              in body composition due to age, gender, or fitness levels.
+            </li>
+            <li>
+              <strong>Health Indicators</strong>: BMI can give a rough idea about
+              weight-related health, but it’s best used alongside other measurements
+              (e.g., waist circumference, body fat percentage, or health screenings).
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
   );
 };
