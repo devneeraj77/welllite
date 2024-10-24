@@ -18,8 +18,8 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full  text-tp text-sm bg-primary z-50  backdrop-blur-md ">
-      <nav className="container mx-auto px-4 py-4  z-50 flex justify-between items-center">
+    <header className="w-full  text-tp  fixed left-0 top-0 z-40  backdrop-blur-sm">
+      <nav className="container mx-auto px-4 py-4 z-50 flex justify-between items-center">
         <div className={alata.className}>
           <Link href="/" className="z-50 text-accent text-2xl font-semibold">
             welllite
