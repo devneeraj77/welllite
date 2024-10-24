@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { BackgroundLinesDemo } from "../components/BackgroundLines";
 import Image from "next/image";
-import { IconApple, IconBarbellFilled, IconJumpRope, IconReportMedical, IconStretching2, IconYoga } from "@tabler/icons-react";
+import { IconApple, IconBarbellFilled, IconJumpRope, IconReportMedical, IconYoga } from "@tabler/icons-react";
 import { AccordionDemo } from "../components/Accordion";
 import InitiateForm from "../components/InitiateForm";
 import { motion } from "framer-motion";
@@ -32,7 +32,7 @@ export default function Home() {
             transition={{ ease: "easeIn", delay: 0.8, duration: 0.8 }}
             className="basis-1/2">
             <h2 className="text-2xl text-tp py-2 sm:text-3xl md:text-4xl">Welllite: BMI Calculator – Made Easy</h2>
-            <p className="text-sm md:text-base text-tMuted ">Welllite your make accurate your Body Mass Index (BMI) is a key number that tells you if you're in a healthy weight range. Whether you want to <strong className="text-accent font-normal"><a href="/bmi-calculator">check your progress</a></strong> on a fitness journey or get a quick health overview, understanding your BMI is the first step.</p>
+            <p className="text-sm md:text-base text-tMuted ">Welllite your make accurate your Body Mass Index (BMI) is a key number that tells you if you&apos;re in a healthy weight range. Whether you want to <strong className="text-accent font-normal"><a href="/bmi-calculator">check your progress</a></strong> on a fitness journey or get a quick health overview, understanding your BMI is the first step.</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: -15 }}
@@ -104,7 +104,7 @@ export default function Home() {
             transition={{ ease: "easeIn", delay: 0.8, duration: 0.8 }}
             className="basis-1/2">
             <h2 className="text-2xl text-tp py-2 sm:text-3xl md:text-4xl">Is BMI a good measure of health?</h2>
-            <p className="text-sm md:text-base text-tMuted ">While BMI is a quick estimate of body fat, it's not a perfect health indicator. It doesn't account for muscle mass, bone density, or body composition. Athletes or people with muscular builds might be misclassified. For a more comprehensive picture, consult a healthcare professional and consider factors like waist circumference and overall health markers.</p>
+            <p className="text-sm md:text-base text-tMuted ">While BMI is a quick estimate of body fat, it&apos;s not a perfect health indicator. It doesn&apos;t account for muscle mass, bone density, or body composition. Athletes or people with muscular builds might be misclassified. For a more comprehensive picture, consult a healthcare professional and consider factors like waist circumference and overall health markers.</p>
 
           </motion.div>
           <motion.div
@@ -140,7 +140,7 @@ export default function Home() {
             transition={{ ease: "easeIn", delay: 0.8, duration: 0.8 }}
             className="basis-1/2">
             <h2 className="text-2xl text-tp py-2 sm:text-3xl md:text-4xl">What is a healthy BMI range?</h2>
-            <p className="text-sm md:text-base text-tMuted ">A healthy BMI range typically falls between 18.5 and 24.9. However, these numbers are general guidelines and may vary based on individual factors. It's essential to consult with a healthcare provider to determine your specific BMI range and discuss any concerns or questions you may have.</p>
+            <p className="text-sm md:text-base text-tMuted ">A healthy BMI range typically falls between 18.5 and 24.9. However, these numbers are general guidelines and may vary based on individual factors. It&apos;s essential to consult with a healthcare provider to determine your specific BMI range and discuss any concerns or questions you may have.</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 15 }}
@@ -175,7 +175,7 @@ export default function Home() {
             transition={{ ease: "easeIn", delay: 0.8, duration: 0.8 }}
             className="basis-1/2">
             <h2 className="text-2xl text-tp py-2 sm:text-3xl md:text-4xl">Does BMI vary by age, gender, or body type?</h2>
-            <p className="text-sm md:text-base text-tMuted ">BMI can vary slightly by age, gender, and body type. For Welllite, children and older adults may have different BMI ranges compared to adults. Additionally, individuals with muscular builds might have a higher BMI due to increased muscle mass. It's important to consider these factors when interpreting your BMI and consulting with a healthcare professional for personalized guidance.</p>
+            <p className="text-sm md:text-base text-tMuted ">BMI can vary slightly by age, gender, and body type. For Welllite, children and older adults may have different BMI ranges compared to adults. Additionally, individuals with muscular builds might have a higher BMI due to increased muscle mass. It&apos;s important to consider these factors when interpreting your BMI and consulting with a healthcare professional for personalized guidance.</p>
 
           </motion.div>
           <motion.div
@@ -212,7 +212,7 @@ export default function Home() {
             transition={{ ease: "easeIn", delay: 0.8, duration: 0.8 }}
             className="basis-1/2">
             <h2 className="text-2xl text-tp py-2 sm:text-3xl md:text-4xl">How often should I check my BMI?</h2>
-            <p className="text-sm md:text-base text-tMuted ">It's recommended to check your BMI periodically, such as once or twice a year. This can help you track changes in your body composition and identify any potential health concerns early on. However, it's important to consult with a healthcare professional for personalized guidance and to discuss any specific factors that may influence your BMI.</p>
+            <p className="text-sm md:text-base text-tMuted ">It&apos;s recommended to check your BMI periodically, such as once or twice a year. This can help you track changes in your body composition and identify any potential health concerns early on. However, it&apos;s important to consult with a healthcare professional for personalized guidance and to discuss any specific factors that may influence your BMI.</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: -15 }}
@@ -239,7 +239,7 @@ export default function Home() {
         <div className=" flex  md:flex-row flex-col  gap-4 justify-center items-center">
           <div className="basis-1/2 lg:aspect-square p-3 rounded-lg">
             <h6 className="text-3xl md:text-4xl lg:text-5xl taxt-tp py-4 ">How could be next Featured in web? <strong className="font-normal text-accent">suggest us!!</strong> </h6>
-            <p className="text-sm pb-2 my-3">Want to see your amazing BMI-related project featured on our platform? We're all about showcasing the incredible work of our community. Share your stories, insights, or creations </p>
+            <p className="text-sm pb-2 my-3">Want to see your amazing BMI-related project featured on our platform? We&apos;re all about showcasing the incredible work of our community. Share your stories, insights, or creations </p>
             <Link href={'/feedback'} className="mb-4  text-center flex flex-col justify-center items-center text-sm bg-muted p-2 px-3 rounded-full text-accent">
               for help</Link>
 

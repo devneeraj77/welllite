@@ -31,7 +31,7 @@ const TermsAndConditions = () => {
                     <section className="mb-6">
                         <h2 className=" text-tp text-xl font-semibold">3. Disclaimer of Warranties</h2>
                         <ul className="list-disc list-inside">
-                            <li>Welllite is provided "as is" without warranties of any kind.</li>
+                            <li>Welllite is provided as is without warranties of any kind.</li>
                             <li>We do not guarantee the accuracy, completeness, or reliability of the information provided.</li>
                             <li>We are not responsible for any damages or losses arising from your use of Welllite.</li>
                         </ul>

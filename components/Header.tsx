@@ -3,7 +3,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Alata } from "next/font/google";
-import { IconBrandGoogle } from "@tabler/icons-react";
 import NavDropdown from "./NavDropdown";
 
 const alata = Alata({
